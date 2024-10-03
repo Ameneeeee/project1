@@ -6,7 +6,7 @@
 #define MAX_RESERVATIONS 100
 
 typedef struct {
-    char name[50], phone[15], date[11];
+    char name[45], phone[15], date[11];
     int age, ref;
 } Reservation;
 
